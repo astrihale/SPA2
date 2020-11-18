@@ -35,7 +35,7 @@ class DrugiZadatak {
             Student[] studenti = Student.ucitajSveIzFajla(fajlZaCitanje);
 
             // Sortiraj sve studente, stanje je vec namesteno
-            Student[] sortirani = SortFunctions.bruteForceSort(studenti);
+            Student[] sortirani = SortFunctions.BruteForceSort.sort(studenti);
 
             // Zapisi sve studente nazad
             Student.snimiSveUFajl(sortirani, fajlZaPisanje);
