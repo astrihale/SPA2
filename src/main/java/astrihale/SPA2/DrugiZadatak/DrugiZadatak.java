@@ -35,10 +35,10 @@ class DrugiZadatak {
             Student[] studenti = Student.ucitajSveIzFajla(fajlZaCitanje);
 
             // Sortiraj sve studente, stanje je vec namesteno
-            Arrays.sort(studenti);
+            Student[] sortirani = SortFunctions.bruteForceSort(studenti);
 
             // Zapisi sve studente nazad
-            Student.snimiSveUFajl(studenti, fajlZaPisanje);
+            Student.snimiSveUFajl(sortirani, fajlZaPisanje);
         } catch (IOException e) {
             e.printStackTrace();
         }
