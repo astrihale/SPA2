@@ -35,7 +35,7 @@ class Student implements Comparable<Student> {
     }
 }
 
-class SortiranjeMain {
+class PrviZadatak {
 
     public static Student[] ucitajStudenteIzFajla(String putanja) {
         try {
