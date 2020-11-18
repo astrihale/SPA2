@@ -1,21 +1,35 @@
 package astrihale.SPA2.TreciZadatak;
 
+import org.svetovid.io.SvetovidReader;
+
 import java.io.*;
 import java.util.Objects;
 
 @SuppressWarnings("SpellCheckingInspection")
-public class Fudbaler {
+public class Fudbaler extends InfoTip {
 
-    private final String punoIme;
-    private final String pozicija;
-    private final int godinaRodjenja;
-    private final boolean prvaPostava;
+    private String punoIme;
+    private String pozicija;
+    private int godinaRodjenja;
+    private boolean prvaPostava;
+
+    public Fudbaler() {
+    }
 
     public Fudbaler(String punoIme, String pozicija, int godinaRodjenja, boolean prvaPostava) {
         this.punoIme = punoIme;
         this.pozicija = pozicija;
         this.godinaRodjenja = godinaRodjenja;
         this.prvaPostava = prvaPostava;
+    }
+
+    @Override
+    public InfoTip ucitaj(SvetovidReader r) {
+        String punoIme = r.readLine();
+        String pozicija = r.readLine();
+        int godinaRodjenja = r.readInt();
+        boolean prvaPostava = r.readLine().equals("da");
+        return new Fudbaler(punoIme, pozicija, godinaRodjenja, prvaPostava);
     }
 
     public String getPunoIme() {
