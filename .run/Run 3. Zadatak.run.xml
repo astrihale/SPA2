@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Run 3. Zadatak" type="Application" factoryName="Application">
+    <option name="ALTERNATIVE_JRE_PATH" value="11" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <option name="MAIN_CLASS_NAME" value="astrihale.SPA2.TreciZadatak.TreciZadatak" />
+    <module name="SPA2.main" />
+    <option name="PROGRAM_PARAMETERS" value="./src/main/resources/f0.txt ./src/main/resources/f1.txt" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
