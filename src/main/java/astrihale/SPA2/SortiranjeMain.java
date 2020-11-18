@@ -55,6 +55,7 @@ class SortiranjeMain {
                 int godinaRodjenja = Integer.parseInt(reader.readLine());
                 studenti[i] = new Student(ime, prezime, godinaRodjenja);
             }
+            reader.close();
             return studenti;
         } catch (IOException e) {
             e.printStackTrace();
