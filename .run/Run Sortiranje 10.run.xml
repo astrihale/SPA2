@@ -2,7 +2,7 @@
   <configuration default="false" name="Run 1. Zadatak - Sortiranje 10" type="Application" factoryName="Application">
     <option name="ALTERNATIVE_JRE_PATH" value="11" />
     <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-    <option name="MAIN_CLASS_NAME" value="astrihale.SPA2.PrviZadatak" />
+    <option name="MAIN_CLASS_NAME" value="astrihale.SPA2.PrviZadatak.PrviZadatak" />
     <module name="SPA2.main" />
     <option name="PROGRAM_PARAMETERS" value="./src/main/resources/zadatak1/studenti10.txt ./src/main/resources/zadatak1/studenti10-sortirano.txt" />
     <method v="2">

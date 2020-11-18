@@ -1,4 +1,4 @@
-package astrihale.SPA2;
+package astrihale.SPA2.PrviZadatak;
 
 import java.io.*;
 import java.util.Arrays;
